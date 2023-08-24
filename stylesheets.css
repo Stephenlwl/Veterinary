@@ -1,0 +1,392 @@
+img{
+	max-width: 50%;
+	height: auto%;
+	display: block;
+	 margin-left: auto;
+  margin-right: auto;
+}
+
+.image1{
+	max-width: 50%;
+	height: 50%;
+}
+
+.image2{
+	max-width: auto%;
+	height: 100%;
+}
+	
+
+h1{
+	font-size: 45px;
+	color:#373737;
+	font-family:blippo,impact,sans-serif;
+}
+
+h3{
+	font-family:blippo,impact,sans-serif;
+}
+
+p{
+	font-family: Yu Gothic,Book Antiqua,sans-serif;
+	font-size:15px;
+}
+
+.gold{
+	color:#c66b3d;
+	font-family:Calibri Light,Book Antiqua,sans-serif;
+}
+
+
+.bold{
+
+	font-size:18px;
+	font-family: Copperplate Gothic Light,Book Antiqua,sans-serif;
+}
+
+.center{
+	background-color:#c0b283;
+	text-align:center;
+	font-size:12px;
+	font-family:SimHei,SimSun,sans-serif;
+}
+
+.right{
+	
+	background-color:#b99251;
+	text-align:right;
+}
+
+.ins{
+	text-decoration:underline;
+}
+
+.container {
+		display: flex;
+        align-items: center;
+        justify-content: center;
+		
+}
+
+.image{
+	flex-basis:150%;
+	
+}
+
+body{
+	background-color:#daded4;
+	font-family: Yu Gothic;
+}
+
+.grey{
+	background-color:#808c97;
+	color:#ffffff;
+}
+
+.green{
+	color:#457373;
+	font-family:Fira Sans,italic,serif;
+}
+
+.backgreen{
+	background-color:#b4d2d3;
+}
+
+.yellow{
+	background-color:#ddb247;
+}
+
+.blue{
+	background-color:#a0b3c1;
+}
+
+.lightblue{
+	background-color:#e0eaf5;
+}
+
+.small{
+	text-align:center;
+	font-size:10px;
+	color:#808c97;
+}
+
+.small2{
+	text-align:center;
+	font-size:14px;
+	color:#808c97;
+}
+
+
+.big{
+	font-size:35px;
+	font-family:Segoe Script,MV Boli,serif;
+	
+}
+
+.textstrong{
+	font-family:blippo,impact,sans-serif;
+	font-size:20px;
+}
+
+.centre{
+	font-family:blippo,impact,sans-serif;
+	font-size:20px;
+	text-align:center;
+}
+
+.blue1{
+	background-color:#a0b3c1;
+	border-radius:5px;
+}
+
+.center2{
+	background-color:#b99251;
+	text-align:center;
+}
+
+.title{
+		float: left;
+		width: max;
+		text-align: right;
+		padding-right: max;
+}
+
+@media screen and (max-width: 600px) {
+  .split a {
+    float: none;
+    width: 100%;
+  }
+}
+
+.split{
+	overflow: hidden;
+	background-color: #005452;
+	border-radius:10px 10px 10px 10px;
+}
+
+.split a {
+	float: right;
+	display: block;
+	color: #f6f4e8;
+	background-color:#005452;
+	text-align: center;
+	padding: 18px 16px;
+	text-decoration: none;
+	font-size:20px;
+	font-family:SimHei, italy,serif;
+  
+}
+
+.split a:hover {
+	background-color:#bacec1;
+	color: #005452;
+}
+
+
+@media screen and (max-width: 600px) {
+  .enter a {
+    float: none;
+	width: 100%;
+  }
+}
+
+.enter a:hover{
+	background-color:#7e8071;
+	color:#ffffff;
+}
+
+.enter{
+	background-color:#808c97;
+}
+
+.enter a {
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+ 
+}
+
+
+#back{
+	background-image:url(img/dog.jpg);
+	background-repeat: no-repeat, repeat;
+	padding: 15px;
+}
+
+.text{
+	font-family: Yu Gothic,Century Gothic,serif;
+	font-size:18px;
+}
+
+.image3{
+	width:500px;
+	height:200px;
+	float: center;
+	position:center;
+}
+
+.yellow2{
+	background-color:ffce2b;
+}
+
+.textstyle{
+	font-family:Ink Free, Brush Script MT,serif;
+	font-size:40px;
+	color:#ddb247;
+}
+
+header{
+	width:auto;
+}
+
+
+aside{
+	width:30%;
+	float:right;
+	position:right;
+}
+
+section{
+	
+	width:65%;
+	float:left;
+	position:left;
+	
+}
+
+.center3{
+	background-color:#b99251;
+	text-align:center;
+	color:#ffffff;
+	font-family:times new roman,serif;
+}
+
+.red{
+	color:red;
+	font-size:25px;
+}
+
+table.second{
+	table-layout: auto;
+	width: 60%;
+	margin-left: auto;
+  margin-right: auto;
+	background-color: #2a505a;
+	color: #bbcbd2;
+}
+
+
+th{
+	font-size: 18px;
+	text-align: left;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 8px;
+	padding-bottom: 5px;
+	color: #ebeced;
+}
+
+tr.even{
+	font-size: 18px;
+	text-align: left;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 8px;
+	padding-bottom: 5px;
+	table-layout: auto;
+	background-color:#e6c2bf;
+	color: #c3e6e5;
+}
+
+th:hover{
+	background-color:#7c8981;
+}
+
+h3.color{
+	font-family: inria Sans - Bolditalic;
+	font-size: 30px;
+	text-align: center;
+	color: #1e3130 ;
+}
+
+@media screen and (max-width: 600px) {
+  .back a {
+    float: none;
+	width: 100%;
+  }
+}
+
+.back a:hover{
+	background-color:#62bcb4;
+	color:#ffffff;
+}
+
+.back{
+	background-color:#e87a5d;
+	color:#ecebee ;
+}
+
+.back a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  float: right;
+  text-decoration: none;
+ 	font-family:SimHei, italy,serif;
+	background-color:#e87a5d;
+	color:#ecebee ;
+}
+
+div.fixed{
+	position: fixed;
+ 	bottom: 0;
+ 	right: 0;
+ 	width: 300px;
+}
+
+h4.color{
+	font-family: inria Sans - Bolditalic;
+	font-size: 30px;
+	text-align: center;
+	color: #1e3130 ;
+}
+
+div.backgroundcolor{
+	background-color: #005452;
+	color: #f6f4e8;
+	font-size:20px;
+	font-family:SimHei, italy,serif;
+	padding-left: 40%;
+}
+
+@media screen and (max-width: 600px) {
+  .splitcontact a {
+    float: center;
+    width: 50%;
+  }
+}
+
+.splitcontact{
+	overflow: hidden;
+	background-color: #005452;
+	float: center;
+}
+
+.splitcontact a {
+	float: left;
+	display: block;
+	color: #f6f4e8;
+	background-color:#005452;
+	padding: 1% 1% 1% 1% ;
+	text-align: center;
+	text-decoration: none;
+	font-size:20px;
+	font-family:SimHei, italy,serif;
+}
+
+.splitcontact a:hover {
+	background-color:#bacec1;
+	color: #005452;
+}
